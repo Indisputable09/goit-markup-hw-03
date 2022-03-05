@@ -115,6 +115,7 @@ footer {
 .adress {
   font-size: 14px;
   line-height: 1.71;
+  font-style: normal;
 }
 .map {
   text-decoration: none;
@@ -127,11 +128,8 @@ footer {
   line-height: 1.71;
 }
 /* buttons */
-button.order {
-  color: var(--button-order-primary-color);
-  background-color: var(--button-order-background-hover-focus-color);
-}
 .buttons-portfolio {
+  font-family: "Roboto", sans-serif;
   background-color: var(--buttons-portfolio-section4-background-color);
   font-weight: 500;
   font-size: 16px;
@@ -141,6 +139,14 @@ button {
   font-weight: bold;
   color: var(--buttons-portfolio-text-titles-color);
   cursor: pointer;
+}
+button.order {
+  color: var(--button-order-primary-color);
+  background-color: var(--button-order-background-hover-focus-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
 }
 .buttons-portfolio:hover,
 .buttons-portfolio:focus {
