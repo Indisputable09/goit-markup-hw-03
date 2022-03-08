@@ -83,7 +83,7 @@ body {
 .header-nav:focus {
   color: var(--button-order-background-hover-focus-color);
 }
-.header-contact {
+.header-contact > a {
   color: var(--contacts-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -100,8 +100,8 @@ body {
 .header-contact + .header-contact {
   margin-left: 50px;
 }
-.header-contact:hover,
-.header-contact:focus {
+.header-contact > a:hover,
+.header-contact > a:focus {
   color: var(--button-order-background-hover-focus-color);
 }
 .contacts {
