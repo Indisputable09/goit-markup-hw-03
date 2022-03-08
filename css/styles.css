@@ -310,11 +310,29 @@ button.order {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+
+  padding-top: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 4px;
+  text-align: start;
+
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .portfolio-description {
   font-size: 16px;
   line-height: 1.87;
   color: #757575;
+
+  text-align: start;
+  padding-top: 0;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 20px;
+
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .portfolio {
@@ -325,7 +343,7 @@ button.order {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 50px;
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
 }
 .flex-container {
   width: 1200px;
