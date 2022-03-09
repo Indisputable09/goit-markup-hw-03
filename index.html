@@ -17,7 +17,7 @@
 <body>
    <!--Complete header (valid)-->
     <header class="header">
-        <div class="line"><nav class="container line">
+        <div class="container"><nav class="line">
             <a href="./index.html" class="logo" lang="en"><span class="accent">Web</span>Studio</a>
             <ul class="header-list list">
                 <li class="header-item"><a class="header-nav" href="./index.html">Студия</a></li>
@@ -25,20 +25,18 @@
                 <li class="header-item"><a class="header-nav" href="">Контакты</a></li>
             </ul>
         </nav>
-        <div class="container">
-            <ul class="list contacts">
+            <ul class="contacts list">
                 <li class="header-contact"><a href="tel:+380961111111">+38 096 111 11 11</a></li>
                 <li class="header-contact"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
             </ul>
         </div> 
-        </div>
         </header>
         <!-- Complete main (valid) -->
     <main>
         <!-- Section 1 -->
         <section class="hero">
-            <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-            <button class="order" type="button">Заказать услугу</button>
+            <div class="container"><h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+            <button class="order" type="button">Заказать услугу</button></div>
         </section>
         <!-- Section 2 -->
         <section class="details"><div class="container">
@@ -77,20 +75,20 @@
             <div class="container"><h2 class="team-title">Наша команда</h2>
             <ul class="list">
                 <li class="team-list"><img src="./images/igor.jpg" alt="Игорь Демьяненко" width="270" height="260">
-                    <h3 class="team-names">Игорь Демьяненко</h3>
-                    <p class="team-professions" lang="en">Product Designer</p>
+                    <div class="team-card"><h3 class="team-names">Игорь Демьяненко</h3>
+                    <p class="team-professions" lang="en">Product Designer</p></div>
                 </li>
                 <li class="team-list"><img src="./images/olga.jpg" alt="Ольга Репина" width="270" height="260">
-                    <h3 class="team-names">Ольга Репина</h3>
-                    <p class="team-professions" lang="en">Frontend Developer</p>
+                    <div class="team-card"><h3 class="team-names">Ольга Репина</h3>
+                    <p class="team-professions" lang="en">Frontend Developer</p></div>
                 </li>
                 <li class="team-list"><img src="./images/nikolay.jpg" alt="Николай Тарасов" width="270" height="260">
-                    <h3 class="team-names">Николай Тарасов</h3>
-                    <p class="team-professions" lang="en">Marketing</p>
+                    <div class="team-card"><h3 class="team-names">Николай Тарасов</h3>
+                    <p class="team-professions" lang="en">Marketing</p></div>
                 </li>
                 <li class="team-list"><img src="./images/michael.jpg" alt="Михаил Ермаков" width="270" height="260">
-                    <h3 class="team-names">Михаил Ермаков</h3>
-                    <p class="team-professions" lang="en">UI Designer</p>
+                    <div class="team-card"><h3 class="team-names">Михаил Ермаков</h3>
+                    <p class="team-professions" lang="en">UI Designer</p></div>
                 </li>
             </ul></div>
         </section>
@@ -101,9 +99,11 @@
     <address class="adress"><a href="https://goo.gl/maps/P59u9W5bj68FYUrY8" target="_blank" rel="noopener noreferrer"
             class="map">г. Киев, пр-т Леси Украинки, 26</a></address>
     <ul class="list-footer">
-        <li><a class="footer-contact tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
-        <li><a class="footer-contact mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-    </ul></div>
+        <li class="footer-contact"><a class="tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <li class="footer-contact"><a class="mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+    </ul>
+    </address>
+    </div>
     </footer>
 </body>
 </html>
